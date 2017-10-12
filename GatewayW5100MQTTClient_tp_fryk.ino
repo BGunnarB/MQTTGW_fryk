@@ -71,11 +71,11 @@
 #define MY_GATEWAY_MQTT_CLIENT
 
 // Set this nodes subscripe and publish topic prefix
-#define MY_MQTT_PUBLISH_TOPIC_PREFIX "fryksensors-out"
-#define MY_MQTT_SUBSCRIBE_TOPIC_PREFIX "fryksensors-in"
+#define MY_MQTT_PUBLISH_TOPIC_PREFIX "xxxxxx-out"
+#define MY_MQTT_SUBSCRIBE_TOPIC_PREFIX "xxxxx-in"
 
 // Set MQTT client id
-#define MY_MQTT_CLIENT_ID "ib9sensors"
+#define MY_MQTT_CLIENT_ID "_____"
 
 // W5100 Ethernet module SPI enable (optional if using a shield/module that manages SPI_EN signal)
 #define MY_W5100_SPI_EN 4  
@@ -99,8 +99,8 @@
 #endif
    
 // Enable these if your MQTT broker requires usenrame/password
-#define MY_MQTT_USER "ejvnbdzq"
-#define MY_MQTT_PASSWORD "XI1GrKudwr78"
+#define MY_MQTT_USER "____"
+#define MY_MQTT_PASSWORD "_____"
 
 // Enable MY_IP_ADDRESS here if you want a static ip address (no DHCP)
 #define MY_IP_ADDRESS 192,168,1,210
